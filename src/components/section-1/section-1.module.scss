@@ -1,0 +1,100 @@
+.container {
+  @apply min-h-screen;
+  padding-top: 88px;
+  background: url(/images/section-1/Group.png) center center no-repeat;
+  background-size: cover;
+}
+
+.caption {
+  font-family: 'Space Grotesk', 'Segoe UI Variable';
+  @apply text-4xl md:text-7xl;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+  color: #fff;
+}
+
+.body1 {
+  color: #fff;
+  font-family: Poppins, 'Segoe UI Variable';
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.btnLaunchpad {
+  width: fit-content;
+
+  display: flex;
+  padding: 16px 24px;
+  align-items: center;
+  gap: 20px;
+  border-radius: 16px;
+  background: #5D32F5;
+
+  font-family: Poppins, 'Segoe UI Variable';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+
+  &:hover{
+    background: #5D32F5;
+  }
+}
+
+.item {
+  display: flex;
+  height: 148px;
+  padding: 24px;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
+  @apply w-auto md:w-1/5;
+
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(2px);
+
+  &:hover{
+    border-color: #E7CD6C;
+  }
+
+  :global(h3) {
+    color: #E2CD6C;
+
+    /* H3 */
+    font-family: 'Space Grotesk', 'Segoe UI Variable';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 110%;
+  }
+
+  :global(div) {
+    color: #8D8D8C;
+
+    text-align: center;
+    font-family: Poppins, 'Segoe UI Variable';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+
+    text-transform: uppercase;
+  }
+}
+
+.h6 {
+  color: #5B5B5B;
+
+  /* H6 */
+  font-family: 'Space Grotesk', 'Segoe UI Variable';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%;
+}

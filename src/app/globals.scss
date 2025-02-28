@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Segoe UI Variable';
+  src: url('/fonts/Segoe-UI-Variable-Static-Display-Bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Segoe UI Variable';
+  src: url('/fonts/Segoe-UI-Variable-Static-Display-Semibold.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Segoe UI Variable';
+  src: url('/fonts/Segoe-UI-Variable-Static-Display.ttf') format('truetype');
+  font-weight: 400;
+}
+
+html {
+  background: #0A0A0A;
+}
+
+body {
+  font-family: 'Segoe UI Variable', sans-serif !important;
+  color: rgb(var(--foreground-rgb));
+  background-color: #0A0A0A !important;
+  background: linear-gradient(to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+.slick-track {
+  display: flex !important;
+  @apply gap-1 items-center;
+}
+
+.slick-slide>div>div {
+  display: flex !important;
+  justify-content: center;
+}
+
+//
+
+.slick-prev, .slick-next {
+  display: none !important;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-wrapper {
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  object-fit: cover;
+}
+
+.swiper-slide {
+  width: fit-content !important;
+}
