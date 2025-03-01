@@ -5,6 +5,31 @@ export const Section6: FC = () => {
     <div className="w-full min-h-screen flex justify-center items-center bg-cover bg-center bg-fixed" 
          style={{ backgroundImage: "url('/images/section-6/bg.png')" }}>
       <div className="container mx-auto px-6">
+
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center text-white mb-12 mt-8">
+          <div className="p-4 bg-white/10 backdrop-blur-lg rounded-2xl border border-white/20 shadow-lg flex items-center">
+            <img src="/images/section-6/user.png" alt="Người dùng" className="w-12 h-12 mr-4" />
+            <div>
+              <p className="text-3xl font-bold">8,886</p>
+              <p className="text-sm">Người dùng</p>
+            </div>
+          </div>
+          <div className="p-4 bg-white/10 backdrop-blur-lg rounded-2xl border border-white/20 shadow-lg flex items-center">
+            <img src="/images/section-6/profile.png" alt="Profiles" className="w-12 h-12 mr-4" />
+            <div>
+              <p className="text-3xl text-start font-bold">2</p>
+              <p className="text-sm">Tổng số Profiles</p>
+            </div>
+          </div>
+          <div className="p-4 bg-white/10 backdrop-blur-lg rounded-2xl border border-white/20 shadow-lg flex items-center">
+            <img src="/images/section-6/project.png" alt="Dự án hoàn thành" className="w-12 h-12 mr-4" />
+            <div>
+              <p className="text-3xl font-bold">3,258,425</p>
+              <p className="text-sm">Dự án đã hoàn thành</p>
+            </div>
+          </div>
+        </div>
+
         
         {/* Section Title */}
         <h2 className="text-center text-white text-4xl font-bold mb-12 mt-8">Dịch vụ của chúng tôi</h2>
