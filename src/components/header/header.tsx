@@ -16,7 +16,7 @@ export const Header: FC<HeaderProps> = ({
     <header className={classes.header}>
       <div className={clsx('container mx-auto', classes.container)}>
         <div className="flex justify-between items-center w-full md:w-auto">
-          <a href="https://dichvumat.com" target="_blank">
+          <a href="https://app.dichvumat.com" target="_blank">
             <img src="/images/logo.png" alt="Dichvumat logo" />
           </a>
           <div className="block md:hidden" onClick={() => setIsMenuOpen(val => !val)}>
@@ -24,7 +24,7 @@ export const Header: FC<HeaderProps> = ({
           </div>
         </div>
         <ul className={clsx(classes.menu, 'flex flex-col md:flex-row justify-end gap-12', isMenuOpen ? 'w-full bg-gray-200 md:bg-transparent rounded p-6' : 'hidden md:flex')}>
-          <li><a className="menu-item" href="https://dichvumat.com/" target="_blank">Đăng nhập</a></li>
+          <li><a className="menu-item" href="https://app.dichvumat.com/" target="_blank">Đăng nhập</a></li>
         </ul>
       </div>
     </header>
