@@ -35,7 +35,7 @@ export const Section6: FC = () => {
         <h2 className="text-center text-white text-4xl font-bold mb-12 mt-8">Dịch vụ của chúng tôi</h2>
 
         {/* Service Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
           <ServiceItem
             icon="/images/section-6/1.png"
             title="Miễn phí CPANEL"
