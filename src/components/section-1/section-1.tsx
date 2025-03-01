@@ -6,52 +6,9 @@ export type Section1Props = {
   }
 }
 
-const Img = ({ name, imageName }: any) => {
-  const [url, setUrl] = useState(`/images/section-1/networks/${imageName}-2.png`)
-
-  // const onMouseEnter = () => {
-  //   setUrl(`/images/section-1/networks/${imageName}-2.png`)
-  // }
-
-  // const onMouseOut = () => {
-  //   setUrl(`/images/section-1/networks/${imageName}.png`)
-  // }
-
-  return (
-    <img
-      className="w-[60px] h-[60px]"
-      src={url}
-      // onMouseEnter={onMouseEnter}
-      // onMouseOut={onMouseOut}
-      alt={name}
-    />
-  )
-}
-
 export const Section1: FC<Section1Props> = ({
   classes
 }) => {
-
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    const handleResize = () => {
-      // Check if the window width is below a certain threshold (e.g., 768 pixels)
-      const mobileThreshold = 768;
-      setIsMobile(window.innerWidth < mobileThreshold);
-    };
-
-    // Initial check on mount
-    handleResize();
-
-    // Attach event listener for window resize
-    window.addEventListener('resize', handleResize);
-
-    // Clean up the event listener on component unmount
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, []);
 
   return (
     <div className={classes.container}>
@@ -70,15 +27,3 @@ export const Section1: FC<Section1Props> = ({
   );
 }
 
-const Item = ({
-  classes,
-  value,
-  desc,
-}: any) => {
-  return (
-    <div className={classes.item}>
-      <h3>{value}</h3>
-      <div>{desc}</div>
-    </div>
-  );
-}

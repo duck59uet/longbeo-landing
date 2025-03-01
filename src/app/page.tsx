@@ -5,7 +5,6 @@ import {
   Header,
   Section1,
   Section6,
-  Section8,
   Footer,
 } from "../components";
 
@@ -42,7 +41,7 @@ const Page: React.FC = () => {
         <Header />
         <Section1 />
         <Section6 />
-        <Section8 />
+        {/* <Section7 /> */}
         <Footer />
       </div>
     )

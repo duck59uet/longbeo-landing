@@ -7,9 +7,9 @@
 
 .caption {
   font-family: 'Space Grotesk', 'Segoe UI Variable';
-  @apply text-4xl md:text-7xl;
+  @apply text-2xl md:text-4xl;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 100%;
   color: #fff;
 }
@@ -17,7 +17,7 @@
 .body1 {
   color: #fff;
   font-family: Poppins, 'Segoe UI Variable';
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: 140%;
@@ -34,7 +34,7 @@
   background: #5D32F5;
 
   font-family: Poppins, 'Segoe UI Variable';
-  font-size: 18px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: 26px;

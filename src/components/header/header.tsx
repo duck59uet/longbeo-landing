@@ -24,7 +24,7 @@ export const Header: FC<HeaderProps> = ({
           </div>
         </div>
         <ul className={clsx(classes.menu, 'flex flex-col md:flex-row justify-end gap-12', isMenuOpen ? 'w-full bg-gray-200 md:bg-transparent rounded p-6' : 'hidden md:flex')}>
-          <li><a className="menu-item" href="https://launchpad.spores.app/" target="_blank">Liên hệ</a></li>
+          <li><a className="menu-item" href="https://dichvumat.com/" target="_blank">Đăng nhập</a></li>
         </ul>
       </div>
     </header>
