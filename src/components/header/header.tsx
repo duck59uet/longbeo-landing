@@ -16,8 +16,8 @@ export const Header: FC<HeaderProps> = ({
     <header className={classes.header}>
       <div className={clsx('container mx-auto', classes.container)}>
         <div className="flex justify-between items-center w-full md:w-auto">
-          <a href="https://spores.app" target="_blank">
-            <img src="/images/logo.png" alt="Spores logo" />
+          <a href="https://dichvumat.com" target="_blank">
+            <img src="/images/logo.png" alt="Dichvumat logo" />
           </a>
           <div className="block md:hidden" onClick={() => setIsMenuOpen(val => !val)}>
             {/* <MenuIcon className="text-white" /> */}

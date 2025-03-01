@@ -1,11 +1,11 @@
 import type { Metadata } from 'next'
 
 import './globals.scss'
-import Script from 'next/script'
+// import Script from 'next/script'
 
 export const metadata: Metadata = {
-  title: 'Spores Network',
-  description: 'Spores Network is the leading multi-chain launchpad for IDOs and INOs of up-and-coming high quality web3 projects, in which user can seamlessly participate & support the project!',
+  title: 'Dichvumat.com',
+  description: 'Dichvumat.com',
 }
 
 export default function RootLayout({
@@ -16,7 +16,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <link rel="icon" type="image/x-icon" href="/favicon.svg" />
+        <link rel="icon" type="image/x-icon" href="/logo.png" />
 
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
@@ -24,8 +24,8 @@ export default function RootLayout({
 
         <link rel="stylesheet" type="text/css" charSet="UTF-8" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" />
         <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" />
-        <meta name="google-site-verification" content="LKEpipjdtmVnz751czvAtz6m37lhqnmK4BoK9QB1rio" />
-        <Script
+        {/* <meta name="google-site-verification" content="LKEpipjdtmVnz751czvAtz6m37lhqnmK4BoK9QB1rio" /> */}
+        {/* <Script
           id="gtm-script"
           strategy="afterInteractive"
           dangerouslySetInnerHTML={{
@@ -47,7 +47,7 @@ export default function RootLayout({
 
             gtag('config', 'G-88D2CR652Q');
           `}
-        </Script>
+        </Script> */}
       </head>
       <body>{children}
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NJVDBGP4"
