@@ -18,7 +18,7 @@ export const Section1: FC<Section1Props> = ({
             <h1 className={classes.caption}>Tăng Cường Khán Giả Nâng Tầm Nội Dung</h1>
             <div className={classes.body1}>Với hơn 5 năm kinh nghiệm trong ngành MMO, cùng đội ngũ lập trình viên chuyên nghiệp, ứng dụng công nghệ mới. Chúng tôi sản xuất các sản phẩm với chất lượng tốt nhất và giá cả cạnh tranh.</div>
             <div>
-              <a className={`${classes.btnLaunchpad} text-white`} href="https://dichvumat.com" target="_blank">Khám phá App</a>
+              <a className={`${classes.btnLaunchpad} text-white`} href="https://app.dichvumat.com" target="_blank">Khám phá App</a>
             </div>
           </div>
         </div>
